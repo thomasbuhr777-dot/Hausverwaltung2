@@ -1,0 +1,255 @@
+CRITICAL - 2026-03-03 12:50:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "liegenschaften/index.php"
+[Method: GET, Route: liegenschaften]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('liegenschaften/index.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('liegenschaften/index', [], true)
+ 3 APPPATH\Controllers\Liegenschaften.php(23): view('liegenschaften/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Liegenschaften->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Liegenschaften))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+DEBUG - 2026-03-03 12:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 12:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 12:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 12:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 12:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 12:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:14:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:15:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 13:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 15:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 15:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 15:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 17:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 17:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 17:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 17:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 17:39:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 17:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 17:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-03 17:47:56 --> ErrorException: Undefined variable $einheit
+[Method: GET, Route: liegenschaften/1]
+in APPPATH\Views\liegenschaften\show.php on line 72.
+ 1 APPPATH\Views\liegenschaften\show.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $einheit', 'C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\show.php', 72)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\show.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('liegenschaften/show', [], true)
+ 5 APPPATH\Controllers\Liegenschaften.php(127): view('liegenschaften/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Liegenschaften->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Liegenschaften))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+DEBUG - 2026-03-03 17:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-03 17:48:18 --> ErrorException: Undefined variable $einheit
+[Method: GET, Route: liegenschaften/1]
+in APPPATH\Views\liegenschaften\show.php on line 72.
+ 1 APPPATH\Views\liegenschaften\show.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $einheit', 'C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\show.php', 72)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\show.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('liegenschaften/show', [], true)
+ 5 APPPATH\Controllers\Liegenschaften.php(127): view('liegenschaften/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Liegenschaften->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Liegenschaften))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+CRITICAL - 2026-03-03 17:48:28 --> ErrorException: Undefined variable $einheit
+[Method: GET, Route: liegenschaften/1]
+in APPPATH\Views\liegenschaften\show.php on line 72.
+ 1 APPPATH\Views\liegenschaften\show.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $einheit', 'C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\show.php', 72)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\show.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('liegenschaften/show', [], true)
+ 5 APPPATH\Controllers\Liegenschaften.php(127): view('liegenschaften/show', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Liegenschaften->show('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Liegenschaften))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+DEBUG - 2026-03-03 17:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 17:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-03 18:16:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mietvertraege/form.php"
+[Method: GET, Route: mietvertraege/new]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(226): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mietvertraege/form.php')
+ 2 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('mietvertraege/form', [], true)
+ 3 APPPATH\Controllers\Mietvertraege.php(27): view('mietvertraege/form', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Mietvertraege->new()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mietvertraege))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+DEBUG - 2026-03-03 18:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 18:19:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 18:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 18:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 18:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 18:42:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 18:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 18:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 18:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-03 18:48:54 --> ErrorException: Undefined variable $liegenschaft
+[Method: GET, Route: liegenschaften/new]
+in APPPATH\Views\liegenschaften\form.php on line 21.
+ 1 APPPATH\Views\liegenschaften\form.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $liegenschaft', 'C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\form.php', 21)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\form.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('liegenschaften/form', [], true)
+ 5 APPPATH\Controllers\Liegenschaften.php(53): view('liegenschaften/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Liegenschaften->new()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Liegenschaften))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+DEBUG - 2026-03-03 18:49:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-03 18:49:20 --> ErrorException: Undefined variable $liegenschaft
+[Method: GET, Route: liegenschaften/new]
+in APPPATH\Views\liegenschaften\form.php on line 21.
+ 1 APPPATH\Views\liegenschaften\form.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $liegenschaft', 'C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\form.php', 21)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\form.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('liegenschaften/form', [], true)
+ 5 APPPATH\Controllers\Liegenschaften.php(53): view('liegenschaften/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Liegenschaften->new()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Liegenschaften))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+DEBUG - 2026-03-03 18:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-03 18:49:46 --> ErrorException: Undefined variable $liegenschaft
+[Method: GET, Route: liegenschaften/new]
+in APPPATH\Views\liegenschaften\form.php on line 21.
+ 1 APPPATH\Views\liegenschaften\form.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $liegenschaft', 'C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\form.php', 21)
+ 2 SYSTEMPATH\View\View.php(238): include('C:\\xampp\\htdocs\\hausverwaltung2\\app\\Views\\liegenschaften\\form.php')
+ 3 SYSTEMPATH\View\View.php(241): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('liegenschaften/form', [], true)
+ 5 APPPATH\Controllers\Liegenschaften.php(53): view('liegenschaften/form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Liegenschaften->new()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Liegenschaften))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+DEBUG - 2026-03-03 19:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 19:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 19:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 19:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 19:05:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 19:05:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 19:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 19:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-03-03 19:41:25 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: transaktionen]
+in APPPATH\Config\Routes.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(818): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 SYSTEMPATH\CodeIgniter.php(441): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+ERROR - 2026-03-03 19:42:52 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `transaktionen` SET `status` = \'bezahlt\', `updated_at` = \'2026-03-03 19:42:52\'
+WHERE `transaktionen`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transaktionen` SET `status` = \'bezahlt\', `updated_at` = \'2026-03-03 19:42:52\'
+WHERE `transaktionen`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transaktionen` SET `status` = \'bezahlt\', `updated_at` = \'2026-03-03 19:42:52\'
+WHERE `transaktionen`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `transaktionen` SET `status` = :status:, `updated_at` = :updated_at:
+WHERE `transaktionen`.`id` IN :transaktionen.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Transaktionen.php(30): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Transaktionen->markAsPaid('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaktionen))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+CRITICAL - 2026-03-03 19:42:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+[Method: POST, Route: transaktionen/markAsPaid/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 724.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `transaktionen` SET `status` = :status:, `updated_at` = :updated_at:
+WHERE `transaktionen`.`id` IN :transaktionen.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 3 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 4 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 5 APPPATH\Controllers\Transaktionen.php(30): CodeIgniter\Model->update('1', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Transaktionen->markAsPaid('1')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaktionen))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+CRITICAL - 2026-03-03 19:42:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transaktionen` SET `status` = \'bezahlt\', `updated_at` = \'2026-03-03 19:42:52\'
+WHERE `transaktionen`.`id` IN (\'1\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transaktionen` SET `status` = \'bezahlt\', `updated_at` = \'2026-03-03 19:42:52\'
+WHERE `transaktionen`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `transaktionen` SET `status` = :status:, `updated_at` = :updated_at:
+WHERE `transaktionen`.`id` IN :transaktionen.id:', [...], false)
+ 4 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 5 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 6 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 7 APPPATH\Controllers\Transaktionen.php(30): CodeIgniter\Model->update('1', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Transaktionen->markAsPaid('1')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaktionen))
+10 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+CRITICAL - 2026-03-03 19:42:52 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('UPDATE `transaktionen` SET `status` = \'bezahlt\', `updated_at` = \'2026-03-03 19:42:52\'
+WHERE `transaktionen`.`id` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(769): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transaktionen` SET `status` = \'bezahlt\', `updated_at` = \'2026-03-03 19:42:52\'
+WHERE `transaktionen`.`id` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(686): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transaktionen` SET `status` = \'bezahlt\', `updated_at` = \'2026-03-03 19:42:52\'
+WHERE `transaktionen`.`id` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2521): CodeIgniter\Database\BaseConnection->query('UPDATE `transaktionen` SET `status` = :status:, `updated_at` = :updated_at:
+WHERE `transaktionen`.`id` IN :transaktionen.id:', [...], false)
+ 5 SYSTEMPATH\Model.php(407): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\BaseModel.php(1073): CodeIgniter\Model->doUpdate([...], [...])
+ 7 SYSTEMPATH\Model.php(706): CodeIgniter\BaseModel->update([...], [...])
+ 8 APPPATH\Controllers\Transaktionen.php(30): CodeIgniter\Model->update('1', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Transaktionen->markAsPaid('1')
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaktionen))
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\hausverwaltung2\\public\\index.php')
+DEBUG - 2026-03-03 19:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-03-03 19:46:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
